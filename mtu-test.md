@@ -1,10 +1,8 @@
-## MTU Configuration Instructions
+# Q Link Network Test - Instructions
 
-Please review this spreadsheet before you start: 
+Please check [this spreadsheet](https://docs.google.com/spreadsheets/d/10xtY3daQ6R3eTvyp_w56OFJM7ifQs73CnjWJLijhsl0/edit#gid=0) before you start (note which test group you're in).
 
-https://docs.google.com/spreadsheets/d/10xtY3daQ6R3eTvyp_w56OFJM7ifQs73CnjWJLijhsl0/edit#gid=0
-
-### 1. Open the command prompt
+## 1. Open the command prompt
 
 - Search for "command prompt" in the Windows search bar.
 - Click **Run as administrator**
@@ -13,7 +11,7 @@ https://docs.google.com/spreadsheets/d/10xtY3daQ6R3eTvyp_w56OFJM7ifQs73CnjWJLijh
 <img width="400" alt="commandprompt" src="https://user-images.githubusercontent.com/481602/122732046-38e43b00-d2bf-11eb-8ae7-c2ca9b7d4a2a.png">
 
 
-### 2. Record your current MTU value
+## 2. Record your current MTU value
 
 In the command prompt window, enter:
 
@@ -28,7 +26,7 @@ netsh interface ipv4 show subinterfaces
 
 ![netsh](https://user-images.githubusercontent.com/481602/122732255-721cab00-d2bf-11eb-871c-7f3ab02cc5c1.png)
 
-### 3. Update your MTU value
+## 3. Update your MTU value
 
 If you are in **Test Group 1** enter:
 
@@ -42,4 +40,4 @@ This should respond with:
 
 `Ok`
 
-All done! Please enter a "Y" in the "Done" column in the spreadsheet next to your name.
+All done! Once you're done please enter a "Y" in the "Done" column in the spreadsheet next to your name.
